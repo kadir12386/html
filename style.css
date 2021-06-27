@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(190, 190, 190);
+}
+.container{
+    margin: 100px 200px;
+    background-color: #fff;
+    border: 10px solid black;
+    border-radius: 5px;
+    
+}
+.container1{
+    border: 10px solid rgb(102, 99, 99);
+    padding: 10px; 
+}
+
+.first_container{
+    background-color: rgb(45, 92, 223);
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+}
+.first_container img{
+    border: 6px dotted white;
+    border-radius: 50%;
+    padding: 10px;
+}
+h1{
+    color: #fff;
+    text-align: center; 
+}
+
+.icon{
+    background-color: rgb(3, 3, 3);
+    padding: 9px;
+    color: rgb(242, 243, 247);
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* border: 6px dotted rgb(10, 116, 238);
+    border-radius: 50%;
+    padding: 10px; */
+}
+h2{
+    color:rgb(45, 92, 223)
+}
+.pro-name{
+    position: relative;
+   background-color: rgb(22, 21, 22);
+   width: 250px;
+   margin-left: 37%;
+   margin-top: -20px;
+   z-index: 10;
+   padding: 10px;
+   border-radius: 10px;
+   text-transform: uppercase;
+   font-size: 25px;    
+}
+
+.second-container{
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+    display: flex;
+
+}
+
+.left-side{
+    width: 55%;
+    padding: 10px 20px 20px;
+}
+.right-side{
+    float: right;
+    padding: 10px 10px 10px 30px;   
+}
+.line{
+    background-color: rgb(66, 65, 65);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 5px;
+    height: auto;
+    border-radius: 100px;
+}
+.contact{
+    list-style: none;
+}
+.icon1{
+    margin-right:20px;  
+    margin-bottom: 15px;
+    margin-left: -15px;
+}
+a{
+    text-decoration: none;
+    color: rgb(8, 7, 8);
+}
+a:hover{
+    color: rgb(230, 9, 83);
+}
